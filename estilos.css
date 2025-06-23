@@ -1,4 +1,157 @@
-h1{
-   color: blueviolet;
+.logo-topo {
+      display: block;
+      margin: 0 auto;
+      width: 680px; /*tamanho da logo*/
+      height: auto;
+      margin-top:50px; /*espaço do topo */
+}
+.titulo-centralizado {
+      text-align: center;
+      font-size:60px; 
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      margin-top: 6px; 
+      color: rgb(2, 88, 59);
+      margin-bottom: 2px;
+}
+.ano-da-competicao{
+      text-align: center;
+      font-size: 20px; /* tamanho do título */
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      margin-bottom: 0;
+      margin-top: 0;
+}
+.barra-lateral {
+      display: flex;
+      flex-direction: column; /* empilha na vertical */
+      position: absolute;
+      top: 0;
+}
+.barra-lateral.esquerda {
+      left: 0;
+      padding-left: 0; 
+}
+.barra-lateral.direita {
+      right: 0;
+      padding-right: 0;
+}
+.barra-lateral img {
+      width: 150px; /* largura da barra */
+      height: auto;
+      margin: 0;
+      padding: 0;
+      z-index: 3; 
+}
+.fundo-topo-img {
+      position: absolute; 
+      top: 0;           
+      left: 150;            
+      width: 100%;      
+      height:700px;      
+      z-index: -1;       
+}
+.Rafa1 {
+      width: 630px;
+      height: auto;
+      margin-top: 30px;
+      display: block;
+      margin-left: 150px;
+      z-index: -2;  
+   }    
+  .verdinha {
+      width: 100%;          
+      height:1900px;        
+      position: absolute;  
+      left: 0;            
+      z-index: 0;         
+      margin-top:-550px ;
+      object-fit: contain; 
+}
+.balao1{
+      width: 133%;          
+      height:400px;        
+      position: absolute;  
+      left: 0;            
+      z-index: 2;         
+      margin-top:-650px ;
+      object-fit: contain; 
+}
+
+
+.balao2 {
+      margin-left:710px;        
+      height:230px;        
+      position: absolute;  
+      left: 0;            
+      z-index: 2;         
+      margin-top:-230px ;
+      object-fit: contain; 
+
+}
+.campoprocesso {        
+      height:5120px;        
+      position: absolute;  
+      left: 0;            
+      z-index: -2;         
+      margin-top:800px ;
+      object-fit: contain; 
+      margin-left:120px;
+}
+.Rafa2{
+      width: 550px;
+      height: auto;
+      margin-top:6000px;
+      display: block;
+      margin-left: 680px;
+      z-index: 2;  
+}
+
+.balao2{
+      margin-left:180px;        
+      height:430px;        
+      position: absolute;  
+      left: 0;            
+      z-index: -1;         
+      margin-top:-480px ;
+      object-fit: contain; 
+}
+.cinzinha {
+      width: 100%;          
+      height:2200px;        
+      position: absolute;  
+      left: 0;            
+      z-index: 0;         
+      margin-top:-550px ;
+      object-fit: contain; 
+
+}
+.cidadeprocesso{
+      height:6100px;                   
+      z-index: -2;         
+      width: 100%;   
+      object-fit: contain; 
+      margin-top: 750px;
+}
+.Rafa3{
+      width: 1100px;
+      margin-left:210px;
+      display: block;
+      z-index: 2; 
+}
+.rodapé{
+      text-align: left;
+      font-size:25px; 
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      margin-top: 280px; 
+      color: rgb(0, 0, 0);
+      margin-left: 160px;
+}
+.rodapéimg{
+      width: 100%;          
+      height:500px;        
+      position: absolute;  
+      left: 0;            
+      z-index: -1;         
+      margin-top:-291px ;
+      object-fit: contain; 
 
 }
